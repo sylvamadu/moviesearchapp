@@ -8,7 +8,7 @@ function Main() {
     // const key = `https://6232e9536de3467dbac2f604.mockapi.io/check`
 
     useEffect(()=>{
-        axios.get(`http://www.omdbapi.com/?i=tt3896198&apikey=e02cc6fd`)
+        axios.get(`https://www.omdbapi.com/?i=tt3896198&apikey=e02cc6fd`)
         .then(response =>{
             setAPIData([response.data])
         })
