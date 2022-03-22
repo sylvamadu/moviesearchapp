@@ -1,3 +1,3 @@
 # moviesearchapp
 
-here is the live link: https://grand-semolina-79cb70.netlify.app/
+here is the live link: https://benevolent-daifuku-510c6b.netlify.app/
