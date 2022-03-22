@@ -1,0 +1,66 @@
+
+
+.header{
+    background-color: #292929;
+    color: whitesmoke;
+    padding: 1.5em;
+}
+.header h2{
+    border: 1px solid white;
+    text-transform: uppercase;
+    width: 20%;
+    text-align: center;
+    padding: .5em;
+}
+.main{
+    margin-top: 2em ;
+    margin-bottom: 2em ;
+}
+.main .search{
+   margin: 1.5em 0;
+}
+.search form input{
+    padding: 1em 0;
+    padding-left: 1em !important;
+    width: 100%;
+}
+.card{
+    border: 1px solid black;
+}
+.hero{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.548),rgba(0, 0, 0, 0.61)), url('/src/img/bg-lg\ \(1\).png');
+}
+.hero p{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 3em;
+    width: 10%;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+}
+@media screen and (max-width:450px) and (min-width: 200px) {
+    .header h2{
+        border: 1px solid white;
+        text-transform: uppercase;
+        width: 54%;
+        text-align: center;
+        padding: .5em;
+    }
+    .hero{
+        position: relative;
+        height: 400px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.548),rgba(0, 0, 0, 0.61)), url('/src/img/bgmd.png');
+    }
+    img{
+        object-fit: cover;
+        width: 100%;
+    }
+}
